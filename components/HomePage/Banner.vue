@@ -12,10 +12,50 @@
      </div>
    </div>
    <div class="logos">
-     <div class="logo__company">
+     <div class="logo__card">
        <img class="banner-logo" alt="logo-01" src="~assets/banner01.png">
      </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner02.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner03.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner04.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner05.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner06.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner07.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner08.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner09.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner10.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner11.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner12.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner13.png">
+     </div>
+     <div class="logo__card">
+       <img class="banner-logo" alt="logo-01" src="~assets/banner14.png">
+     </div>
    </div>
+
  </div>
 </template>
 
@@ -30,6 +70,7 @@ export default {
   display: flex;
   align-items: center;
   color: white;
+  margin-top: 100px;
 }
 .banner-img {
   width: 565px;
@@ -44,9 +85,14 @@ export default {
   height: 21px;
 }
 .logos{
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 133px;
+  margin-bottom: 100px;
+  margin-left: -20px;
 }
-.logo__company {
-
+.logo__card {
+  width: calc(12% - 20px);
+  margin-left: 20px;
 }
 </style>
