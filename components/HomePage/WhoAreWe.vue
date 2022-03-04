@@ -1,8 +1,8 @@
 <template>
 <div class="whoAreWe">
   <div class="contentWho">
-    <p> ARE WE</p>
-    <p>Founded in 2006, Tripath offers first-class software services for hundreds of global clients. We develop the most cutting-edge and creative products that provide comprehensive solutions for business. We listen to specific problems, needs, and wants of our clients and support them throughout the whole way, from an idea to implementation.
+    <p class="uppercase text-4xl mb-3 "><span class="font-extrabold">WHO</span> ARE WE</p>
+    <p class="text-[#AEAEB2]">Founded in 2006, Tripath offers first-class software services for hundreds of global clients. We develop the most cutting-edge and creative products that provide comprehensive solutions for business. We listen to specific problems, needs, and wants of our clients and support them throughout the whole way, from an idea to implementation.
     </p>
   </div>
 <div class="bgIntro">

@@ -1,14 +1,16 @@
 <template>
 <div class="services">
   <div class="ourServices">
-    <h1>Our included services.</h1>
-    <p>We help client to create value with our talented expert.</p>
+    <p class="uppercase text-4xl mb-3 text-[#FFFFFF]"><span class="font-extrabold">Our</span>included services.</p>
+    <p class="text-[#AEAEB2]">We help client to create value with our talented expert.</p>
+
   </div>
 <div class="services__content">
   <div class="services__card">
     <div class="icon__services">
       <img class="" alt="icon-01" src="~assets/icon-services01.png">
     </div>
+
     <div class="title__services">
       <h1>Full cycle software development</h1>
     </div>

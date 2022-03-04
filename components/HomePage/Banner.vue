@@ -2,8 +2,9 @@
  <div>
    <div class="banner-row">
      <div class="flex-1">
-       <img class="makeBright-img" alt="make br" src="~assets/makeBright.png">
-       <button class="btnGet bg-[#003CF9] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+       <img  class="makeBright-img w-full mb-4" alt="make br" src="~assets/makeideas.png">
+        <h1>Tripath is the trustful partner for businesses in every corners of the world. We are your IT team, your presence in Asia. Develop and go global!		</h1>
+       <button class="btnGet bg-[#003CF9] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
          Get Started
        </button>
      </div>
