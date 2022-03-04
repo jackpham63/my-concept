@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="intro__card__wrap">
-    <div class="intro__card bg-[#10C4D3]">
+    <div class="intro__card bg-[#10C4D3] text-[#F2F2F7] pt-[16px] px-[16px] ">
       <div class="text__top ">
         <h1>15 +</h1>
         <p>Years of outsourcing experience</p>
@@ -30,7 +30,7 @@
     </div>
     <div class="intro__card__wrap">
       <div class="intro__card bg-[#003CF9]">
-        <div class="text__top ">
+        <div class="text__top text-[#F2F2F7] pt-[16px] px-[16px]">
           <h1>15 +</h1>
           <p>Years of outsourcing experience</p>
         </div>
@@ -43,7 +43,7 @@
       <img class="intro__img" alt="intro 01" src="~assets/unplash04.png">
     </div></div>
     <div class="intro__card__wrap"><div class="intro__card bg-[#2C2C2E]">
-      <div class="text__top">
+      <div class="text__top text-[#F2F2F7] pt-[16px] px-[16px]">
         <h1>15 +</h1>
         <p>Years of outsourcing experience</p>
       </div>
@@ -56,7 +56,7 @@
       <img class="intro__img" alt="intro 01" src="~assets/unplash01.png">
     </div></div>
     <div class="intro__card__wrap"><div class="intro__card bg-[#000000]">
-      <div class="text__top">
+      <div class="text__top text-[#F2F2F7] pt-[16px] px-[16px]">
         <h1>15 +</h1>
         <p>Years of outsourcing experience</p>
       </div>
@@ -98,8 +98,6 @@ export default {
 }
 .intro{
   display: flex;
-  /*flex-direction: row;*/
-  /*align-items: center;*/
   overflow-x: auto;
   padding: 20px 0;
 }

@@ -7,6 +7,9 @@
     <slot name="content">
       <div>content</div>
     </slot>
+    <slot name="footer">
+      <Footer/>
+    </slot>
 <!--    <slot name="content">
       <div>content</div>
     </slot>
@@ -19,10 +22,11 @@
 
 <script>
 import Header from "~/components/common/Header";
+import Footer from "~/components/common/Footer";
 
 export default {
   name: "CommonTemplate",
-  components: {Header}
+  components: {Footer, Header}
 }
 </script>
 

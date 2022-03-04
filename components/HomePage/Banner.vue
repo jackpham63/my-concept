@@ -96,4 +96,8 @@ export default {
   width: calc(12% - 20px);
   margin-left: 20px;
 }
+.btnGet{
+  width: 200px;
+  height: 48px;
+}
 </style>

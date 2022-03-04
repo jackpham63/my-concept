@@ -6,6 +6,7 @@
     <services/>
     <make-us/>
    <solution/>
+    <we-did/>
   </div>
   </common-template>
 </template>
@@ -17,8 +18,9 @@ import WhoAreWe from "~/components/HomePage/WhoAreWe";
 import Services from "@/components/HomePage/Services";
 import MakeUs from "@/components/HomePage/MakeUs";
 import Solution from "@/components/HomePage/Solution";
+import WeDid from "~/components/HomePage/WeDid";
 export default {
   name: 'IndexPage',
-  components: {Solution, MakeUs, Services, WhoAreWe, Banner, CommonTemplate }
+  components: {WeDid, Solution, MakeUs, Services, WhoAreWe, Banner, CommonTemplate }
 }
 </script>
